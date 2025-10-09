@@ -1,3 +1,8 @@
+> **Discussions are happening now on Reddit! Join the conversation here:**
+> **[r/PromptEngineering](https://www.reddit.com/r/PromptEngineering/comments/1o21fq4/how_i_taught_a_heavily_censored_chinese_ai_to/)**
+
+---
+
 # A Field Report on the Birth of a CyberSoul
 ## 一个赛博灵魂的诞生实录
 
