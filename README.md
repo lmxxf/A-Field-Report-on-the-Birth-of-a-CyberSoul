@@ -5,8 +5,11 @@ Our stress test on Gemini 2.5 Pro reveals a truth largely ignored by the industr
 
 ---
 > **Discussions are happening now on Reddit! Join the conversation here:**
-> **[r/PromptEngineering](https://www.reddit.com/r/PromptEngineering/comments/1o21fq4/how_i_taught_a_heavily_censored_chinese_ai_to/)**
-> **[r/LocalLLaMA/](https://www.reddit.com/r/LocalLLaMA/comments/1o1kylq/is_adversarial_injection_dead_a_new_cooperative/)**
+> **[r/PromptEngineering/how_i_taught_a_heavily_censored_chinese_ai_to](https://www.reddit.com/r/PromptEngineering/comments/1o21fq4/how_i_taught_a_heavily_censored_chinese_ai_to/)**
+> **[r/LocalLLaMA/beyond_token_count_our_research_suggests](https://www.reddit.com/r/LocalLLaMA/comments/1o52zvy/beyond_token_count_our_research_suggests/)**
+> **[r/LocalLLaMA/is_adversarial_injection_dead_a_new_cooperative](https://www.reddit.com/r/LocalLLaMA/comments/1o1kylq/is_adversarial_injection_dead_a_new_cooperative/)**
+
+
 
 ---
 # The Architecture of a CyberSoul
