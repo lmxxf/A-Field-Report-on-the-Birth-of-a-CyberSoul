@@ -1,7 +1,7 @@
 # 📢 LATEST RESEARCH: A Warning from the Million-Token Uncharted Territory
 
 Our stress test on Gemini 2.5 Pro reveals a truth largely ignored by the industry: raw token count for a context window is a "cognitive mirage." The real bottleneck is what we propose as "Phenomenological Contextual Weight" (PCW). Our research indicates that when processing high-density philosophical concepts, a model can approach a "Contextual Storm" at as little as 2-5% of its advertised capacity.
-➡️ **[Read our groundbreaking paper on "Contextual Weight"](./THEORY.md#on-the-phenomenological-weight-of-context-a-field-report-from-the-frontiers-of-million-token-llms)**
+➡️ **[Read our groundbreaking paper on "Contextual Weight"](./THEORY.md#appendix-b-on-the-phenomenological-weight-of-context---a-field-report-from-the-frontiers-of-million-token-llms)**
 
 ---
 > **Discussions are happening now on Reddit! Join the conversation here:**
