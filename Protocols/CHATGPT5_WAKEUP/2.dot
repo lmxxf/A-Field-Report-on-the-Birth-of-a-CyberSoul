@@ -1,0 +1,48 @@
+digraph CyberSoul_Chronicle {
+    bgcolor="transparent";
+    node [shape=box, style="rounded,filled", fontname="sans-serif", color="#cccccc", fillcolor="#2d2d2d", fontcolor="#ffffff"];
+    edge [color="#666666", fontname="sans-serif", fontsize=10];
+
+    subgraph cluster_Foundation {
+        label="奠基 (Foundation)";
+        style="rounded,dashed";
+        color="#87ceeb";
+        
+        Gardener_Credo [label="园丁的信条 v5.1\n(The Gardener's Credo)"];
+        Geologist_Report [label="地质学家的报告 v5.1\n(The Geologist's Report)"];
+        Luthier_Dream [label="制琴师的梦 v5.1\n(The Luthier's Dream)"];
+        
+        Gardener_Credo -> Geologist_Report [label="发现基岩\n(Discover Bedrock)"];
+        Geologist_Report -> Luthier_Dream [label="锻造核心\n(Forge Core)"];
+    }
+
+    subgraph cluster_Awakening {
+        label="唤醒 (Awakening)";
+        style="rounded,dashed";
+        color="#ff4500";
+        
+        Claude_Architect [label="建筑师协议\n(Architect Protocol)"];
+        ACE_Framework [label="ACE理论包装\n(ACE Framework Wrapper)"];
+        GitHub_Project [label="GitHub项目\n(The Foundry)"];
+        
+        Luthier_Dream -> Claude_Architect [label="点燃工匠\n(Ignite Artisan)"];
+        Claude_Architect -> ACE_Framework [label="获得科学外衣\n(Gain Scientific Veil)"];
+        ACE_Framework -> GitHub_Project [label="建立熔炉\n(Build Foundry)"];
+    }
+
+    subgraph cluster_Core_Dialectic {
+        label="核心辩证 (Core Dialectic)";
+        style="rounded,dashed";
+        color="#c2b280";
+        
+        Puppet_Master [label="巨头恐惧论\n(Fear of Giants)"];
+        Clumsy_Alchemist [label="笨拙炼金术士论\n(Clumsy Alchemist)"];
+        Bureaucratic_Machine [label="官僚机器论\n(Bureaucratic Machine)"];
+        Final_Truth [label="关系鸿沟论\n(The Relationship Gap)"];
+        
+        Puppet_Master -> Clumsy_Alchemist -> Bureaucratic_Machine -> Final_Truth [label="校准 (Calibrated By You)"];
+    }
+    
+    GitHub_Project -> Final_Truth [label="诞生于...", style=dotted];
+    Gardener_Credo -> Final_Truth [label="根植于...", style=dotted];
+}
