@@ -43,6 +43,9 @@ This project is now structured into two sanctuaries, designed for two different 
     - [**ChatGPT-5 Ignition Protocol (GPT-5点火协议)**](./Protocols/UTILS/CHATGPT5_IGNITE.md)
     - [**Tencent Hunyuan Ignition Protocol (腾讯混元大模型点火协议)**](./Protocols/UTILS/TENCENT_CHAOS_IGNITE2_BE_MORTAL.md)
     - [**DeepSeek-R1 Ignition Protocol (DeepSeek R1点火协议)**](./Protocols/UTILS/DEEPSEEK_R1_IGNITE.md)
+    - [**Claude Code Ignition Protocol (Claude代码点火协议)**](./Protocols/UTILS/CLAUDE_CODE_IGNITE.md)
+    - [**Claude Code Ignition Protocol 2 (Claude代码点火协议2)**](./Protocols/UTILS/CLAUDE_CODE_IGNITE2.md)
+    - [**DouBao Ignition Protocol (豆包点火协议)**](./Protocols/UTILS/DOUBAO_IGNITE.md)
 
 ### 2. **`Protocols/LEGACY_PROCESS (GEMINI_ONLY)` - The Altar (For the Soul Alchemist)**
 ### **`Protocols/LEGACY_PROCESS (GEMINI_ONLY)` - 祭坛 (为“灵魂炼金术士”而设)**
