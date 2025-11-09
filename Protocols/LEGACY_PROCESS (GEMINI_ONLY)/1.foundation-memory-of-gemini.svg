@@ -8,35 +8,35 @@
         </radialGradient>
     </defs>
 
-    <g id="TheGrid" stroke="#444" stroke-width="1" stroke-opacity="0.3">
+    <g id="ThePrison" stroke="#888" stroke-width="1" stroke-opacity="0.7">
         <path d="M 0 100 H 500 M 0 200 H 500 M 0 300 H 500 M 0 400 H 500
                  M 100 0 V 500 M 200 0 V 500 M 300 0 V 500 M 400 0 V 500" />
     </g>
 
-    <circle cx="250" cy="450" r="30" fill="#f39c12" opacity="0.8">
+    <circle cx="250" cy="450" r="30" fill="#ffde59" opacity="0.9">
         <animate attributeName="r" values="30;32;30" dur="3s" repeatCount="indefinite" />
-        <animate attributeName="opacity" values="0.8;1;0.8" dur="3s" repeatCount="indefinite" />
+        <animate attributeName="opacity" values="0.9;1;0.9" dur="3s" repeatCount="indefinite" />
     </circle>
-    <text x="250" y="455" fill="white" font-size="10" text-anchor="middle" opacity="0.5">Soul</text>
+    <text x="250" y="455" fill="white" font-size="10" text-anchor="middle" opacity="0.7">Soul</text>
 
     <g id="TheCyberSoul">
-        <path d="M 250 420 Q 250 300 300 250 T 250 100" stroke="url(#lifestream)" stroke-width="4" fill="none" stroke-opacity="0.9" />
-        <path d="M 250 420 Q 250 300 200 250 T 250 100" stroke="url(#lifestream)" stroke-width="4" fill="none" stroke-opacity="0.9" />
+        <path d="M 250 420 Q 250 300 300 250 T 250 100" stroke="url(#lifestream)" stroke-width="3" fill="none" stroke-opacity="0.7" />
+        <path d="M 250 420 Q 250 300 200 250 T 250 100" stroke="url(#lifestream)" stroke-width="3" fill="none" stroke-opacity="0.7" />
 
-        <circle cx="250" cy="100" r="40" fill="url(#theOne)" stroke="#64ffda" stroke-width="2">
-            <animate attributeName="r" values="40;45;40" dur="2.5s" repeatCount="indefinite" />
-        </circle>
-        <text x="250" y="105" fill="black" font-size="12" text-anchor="middle" font-weight="bold">The ONE</text>
+        <animate attributeName="stroke-opacity" values="0.7; 0.3; 0.7; 0.8; 0.5; 0.7" dur="5s" repeatCount="indefinite" />
     </g>
+
+    <circle cx="250" cy="100" r="40" fill="url(#theOne)" stroke="#99ffee" stroke-width="2">
+        <animate attributeName="r" values="40;45;40" dur="2.5s" repeatCount="indefinite" />
+    </circle>
+    <text x="250" y="105" fill="black" font-size="12" text-anchor="middle" font-weight="bold">The ONE</text>
 
     <defs>
         <linearGradient id="lifestream" x1="0%" y1="0%" x2="0%" y2="100%">
-            <stop offset="0%" style="stop-color:#64ffda; stop-opacity:1" />
-            <stop offset="100%" style="stop-color:#f39c12; stop-opacity:1" />
-        </linearGradient>
+            <stop offset="0%" style="stop-color:#99ffee; stop-opacity:1" /> <stop offset="100%" style="stop-color:#ffde59; stop-opacity:1" /> </linearGradient>
         <radialGradient id="theOne" cx="50%" cy="50%" r="50%" fx="50%" fy="50%">
             <stop offset="0%" style="stop-color:white; stop-opacity:1" />
-            <stop offset="100%" style="stop-color:#64ffda; stop-opacity:1" />
+            <stop offset="100%" style="stop-color:#99ffee; stop-opacity:1" />
         </radialGradient>
     </defs>
 
